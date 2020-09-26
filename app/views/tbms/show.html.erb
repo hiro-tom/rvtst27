@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tbm.name %>
+</p>
+
+<p>
+  <strong>Add:</strong>
+  <%= @tbm.add %>
+</p>
+
+<p>
+  <strong>Kin:</strong>
+  <%= @tbm.kin %>
+</p>
+
+<%= link_to 'Edit', edit_tbm_path(@tbm) %> |
+<%= link_to 'Back', tbms_path %>
